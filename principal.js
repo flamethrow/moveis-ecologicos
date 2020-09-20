@@ -11,8 +11,9 @@ document
 
 function trocaBanner() {
   bannerAtual = bannerAtual == 0 ? 1 : 0;
+  h2.style.color = h2.style.color == "yellow" ? "red" : "yellow";
 
   document.querySelector("h2#mensagem").innerHTML = banners[bannerAtual];
 }
 
-setInterval(trocaBanner, 2000);
+setInterval(trocaBanner, 1000);
