@@ -1,4 +1,4 @@
-const banners = ["Os melhores do Brasil!", "Qualidade e preço baixo!"];
+const banners = ["Do lixo ao luxo!", "Reaproveitar é aproveitar!"];
 
 let bannerAtual = 0;
 
